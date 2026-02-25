@@ -20,7 +20,7 @@ export const router = createBrowserRouter([
       { path: 'dashboard', element: <Dashboard /> },
       { path: 'watch/:id', element: <WatchVideo /> },
       { path: 'login', element: <Login /> },
-      { path: 'signup', element: <Signup /> },
+      { path: 'Signup', element: <Signup /> },
       { path: 'forgot-password', element: <ForgotPassword /> },
       { path: 'terms', element: <Terms /> },
       { path: 'privacy', element: <Terms /> },
@@ -28,3 +28,4 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
+
