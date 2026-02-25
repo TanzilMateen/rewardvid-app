@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-// Aapki Layout file 'ui' folder ke andar hai screenshot ke mutabiq
-import { Layout } from './components/ui/Layout'; 
+// Layout ab 'ui' folder se bahar hai, seedha 'components' mein
+import { Layout } from './components/Layout'; 
 import { Home } from './pages/Home';
 import { Dashboard } from './pages/Dashboard';
 import { WatchVideo } from './pages/WatchVideo';
@@ -27,3 +27,4 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
+
