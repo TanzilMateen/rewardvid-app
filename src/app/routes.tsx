@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
-// Layout ab 'ui' folder se bahar hai, seedha 'components' mein
 import { Layout } from './components/Layout'; 
+
+// Brackets { } lagana zaroori hai kyunke aapki files mein 'export function' use hua hai
 import { Home } from './pages/Home';
 import { Dashboard } from './pages/Dashboard';
 import { WatchVideo } from './pages/WatchVideo';
@@ -27,4 +28,3 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
-
