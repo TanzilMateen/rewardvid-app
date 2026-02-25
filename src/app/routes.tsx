@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-// './' ka matlab hai "current folder (app) ke andar"
-import { Layout } from './components/Layout'; 
+// Aapki Layout file 'ui' folder ke andar hai screenshot ke mutabiq
+import { Layout } from './components/ui/Layout'; 
 import { Home } from './pages/Home';
 import { Dashboard } from './pages/Dashboard';
 import { WatchVideo } from './pages/WatchVideo';
